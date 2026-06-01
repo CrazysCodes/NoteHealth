@@ -1,0 +1,25 @@
+{
+  "name": "notehealth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.8",
+    "@types/node": "22.15.29",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "tailwindcss": "4.1.8",
+    "typescript": "5.8.3"
+  }
+}
