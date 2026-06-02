@@ -1,0 +1,13 @@
+.git
+.next
+node_modules
+npm-debug.log
+Dockerfile
+compose.yaml
+.DS_Store
+coverage
+dist
+build
+out
+*.tsbuildinfo
+.env*

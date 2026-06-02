@@ -1,0 +1,14 @@
+services:
+  notehealth:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: notehealth:latest
+    container_name: notehealth
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: 3002
+    ports:
+      - "3002:3002"
